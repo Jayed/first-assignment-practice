@@ -1,0 +1,312 @@
+/* Common shared styles start */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Lato";
+}
+.border {
+  border: 5px solid red;
+}
+.primary-font-color {
+  color: #e55473;
+}
+.primary-bg-color {
+  background: rgba(229, 84, 115, 0.1);
+}
+/* .white {
+  color: white;
+} */
+.primary-btn {
+  color: #fff;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px 35px;
+  border-radius: 6px;
+  background: #e55473;
+  border: 0px;
+}
+.primary-para {
+  max-width: 610px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 13px;
+  font-weight: 400;
+  margin: 12px 0px;
+  font-style: normal;
+}
+.primary-title {
+  color: #272727;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+/* Common shared styles end */
+
+/* Header styles start  */
+.banner {
+  background: rgba(229, 84, 115, 0.1);
+  max-width: 1920px;
+  max-height: 850px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  /* align-items: center; */
+}
+.banner-title {
+  max-width: 600px;
+  color: #272727;
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 120px;
+}
+
+.header-pic {
+  max-width: 400px;
+  max-height: 600px;
+  padding-top: 40px;
+  margin-left: 100px;
+}
+/* Header styles end  */
+/* Feature section styles start  */
+/* Common box  */
+.pic-container .box {
+  width: 330px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+}
+.feature > .pic-container > .box-1-content > .box-1 {
+  background: rgba(167, 33, 98, 0.15);
+  background-image: url("asset/pink-1.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 200px;
+}
+.feature .box-title {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.feature > .pic-container > .box-2-content > .box-2 {
+  background: rgba(5, 151, 160, 0.15);
+  background-image: url("asset/pink-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 240px;
+}
+/* .feature > .pic-container > .box-2-content > .box-2-title {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5px;
+  padding-bottom: 50px;
+} */
+.feature > .pic-container > .box-3-content > .box-3 {
+  background: rgba(71, 125, 17, 0.15);
+  background-image: url("asset/pink-3.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 200px;
+}
+/* .feature > .pic-container > .box-3-content > .box-3-title {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5px;
+  padding-bottom: 50px;
+} */
+/* Feature section styles end  */
+
+/* Support section styles start  */
+.support {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  max-width: 1922px;
+  max-height: 620px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 100px 150px;
+  padding: 40px 0px;
+}
+/* Common column  */
+.support .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .support .col-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.support .img {
+  height: 60px;
+  width: 60px;
+}
+/* .support > .col2 > img {
+  height: 60px;
+  width: 60px;
+} */
+/* .support > .col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support > .col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+/* Support section styles end  */
+
+/* deal section styles start  */
+.deal {
+  display: flex;
+  justify-content: space-between;
+}
+.deal-content .primary-title {
+  padding-top: 120px;
+  padding-left: 370px;
+}
+.deal-content .primary-para {
+  padding-left: 340px;
+  text-align: center;
+  max-width: 330px;
+  margin: 20px 0;
+}
+.deal-content .primary-btn {
+  margin-left: 430px;
+}
+.deal .deal-pic {
+  max-width: 220px;
+  max-height: 340px;
+  padding: 60px 380px 60px 30px;
+}
+/* deal section styles end  */
+
+/* Contact section styles start  */
+.contact > .contact-content > .primary-title {
+  padding-top: 100px;
+}
+.contact > .contact-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact > .contact-content > .primary-para {
+  max-width: 450px;
+  text-align: center;
+  margin: 20px 0px 40px 0px;
+}
+.contact .pic-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.pic-container > img {
+  max-width: 250px;
+  max-height: 300px;
+  padding-bottom: 100px;
+}
+.subscribe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1060px;
+  max-height: 450px;
+  flex-shrink: 0;
+  margin: auto;
+  background-image: url("asset/rectangle-9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.subscribe .primary-title {
+  padding-top: 120px;
+}
+.subscribe .primary-para {
+  margin-bottom: 30px;
+}
+.email-submit input[type="email"] {
+  width: 400px;
+  max-height: 64px;
+  padding: 14px 15px;
+  margin-right: 12px;
+  border-radius: 5px;
+  border: 0px;
+}
+.subscribe .primary-btn {
+  margin-bottom: 120px;
+}
+/* Contact section styles end  */
+
+/* Feedback section styles start  */
+.feedback-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+/* Common card  */
+.feedback .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 50px;
+  padding: 15px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.feedback .card-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.feedback .card-2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.feedback .card-3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+/* Feedback section styles end  */
+
+/* Footer section styles start  */
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-height: 500px;
+  padding: 100px;
+  background: black;
+  margin-top: 30px;
+}
+.copy-right {
+  font-size: 8px;
+}
+.footer > .primary-para {
+  max-width: 400px;
+  text-align: center;
+}
+/* Footer section styles end  */
